@@ -51,7 +51,8 @@ def add_s(array)
     if num == 1 
     new_array << i 
   else
-    new_array << i << "s"
+    i << "s"
+    new_array << i
   end 
   }
   new_array
