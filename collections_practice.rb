@@ -26,3 +26,15 @@ def kesha_maker(array)
     new_array << i[2] = "$"
   }
 end 
+
+def find_a(array)
+  
+end 
+
+def sum_array(array)
+  sum_number = 0 
+  array.each{|i|
+  sum_number += i 
+  }
+  sum_number
+end 
