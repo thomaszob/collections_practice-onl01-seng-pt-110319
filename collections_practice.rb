@@ -30,9 +30,10 @@ end
 def find_a(array)
   new_array = []
   array.each{|i|
-    if i.start_with
-    new_array << i.star
-
+    if i.start_with?("a")
+    new_array << i
+    end
+  new_array
 end 
 
 def sum_array(array)
@@ -41,4 +42,8 @@ def sum_array(array)
   sum_number += i 
   }
   sum_number
+end 
+
+def add_s(array)
+  
 end 
