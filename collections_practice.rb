@@ -16,10 +16,13 @@ def swap_elements(array)
   array
 end 
 
-def reverse_array
+def reverse_array(array)
   array.reverse!
 end 
 
-def kesha_maker
-  
+def kesha_maker(array)
+  new_array = []
+  array.each{|i|
+    new_array << 
+  }
 end 
