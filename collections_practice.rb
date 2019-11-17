@@ -30,7 +30,7 @@ end
 def find_a(array)
   new_array = []
   array.each{|i|
-    if i.starts_with?
+    if i.start_with
     new_array << i.star
 
 end 
