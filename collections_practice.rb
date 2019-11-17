@@ -23,6 +23,6 @@ end
 def kesha_maker(array)
   new_array = []
   array.each{|i|
-    new_array << i[]
+    new_array << i[2]
   }
 end 
